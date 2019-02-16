@@ -29,7 +29,7 @@ height: auto;
 
 }
 
-.content p
+p
 {
 
 font-family: 'Source Sans Pro', sans-serif;
@@ -65,7 +65,7 @@ margin-bottom: 30pt;
 
 }
 
-li
+.navbar li
 {
 
 display: inline-block;
@@ -74,9 +74,10 @@ padding-right: 70pt;
 padding-top: 10pt;
 padding-bottom: 10pt;
 
+
 }
 
-li a
+.navbar li a
 {
 
 color: black;
@@ -84,7 +85,7 @@ text-decoration: none;
 
 }
 
-ul li :hover
+.navbar ul li :hover
 {
 
 color: rgb(254, 1, 119); 
@@ -106,7 +107,7 @@ border-color: rgb(162, 254, 205);
 border-style: solid;
 border-width: 10px;
 width: 400px;
-height: 550px;
+height: auto;
 margin-left: 25px;
 padding: 20pt;
 float: left;
@@ -133,7 +134,7 @@ border-width: 10px;
 
 }
 
-.contact
+.contentv2
 {
 
 background-color: white;
@@ -141,11 +142,44 @@ border-color: rgb(162, 254, 205);
 border-style: solid;
 border-width: 10px;
 width: 800px;
-height: 400px;
+height: auto;
 margin: auto;
 padding: 20pt;
 
 }
+
+#email
+{
+
+width: 50px;
+height: 50px;
+display: block;
+
+}
+
+.contactli a
+{
+
+color: rgb(254, 1, 119);
+text-decoration-line: underline;
+
+}
+
+.contactli :hover
+{
+
+color: black;
+
+}
+
+.contactli
+{
+
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
 
 footer
 {
@@ -153,9 +187,14 @@ footer
 width: 1000px;
 padding: 10px;
 margin: auto;
-font-family: 'Rajdhani', sans-serif;
 background-color: rgb(254, 177, 213);
 text-align: center;
 
+}
+
+footer p
+{
+
+font-family: 'Rajdhani', sans-serif;
 
 }

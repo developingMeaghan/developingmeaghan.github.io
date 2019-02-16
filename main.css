@@ -1,8 +1,38 @@
 body
 {
 
+background-image:  url(images/henna.png);
+background-size: 100px 100px;
+
+}
+#content
+{
+
 background-color: rgb(249, 214, 254);
 font-family: 'Rajdhani', sans-serif;
+width: 1000px;
+margin: auto;
+padding: 10px;
+height: 1000px;
+
+}
+
+.content
+{
+
+background-color: rgb(249, 214, 254);
+font-family: 'Rajdhani', sans-serif;
+width: 1000px;
+margin: auto;
+padding: 10px;
+height: auto;
+
+}
+
+.content p
+{
+
+font-family: 'Source Sans Pro', sans-serif;
 
 }
 
@@ -10,10 +40,8 @@ font-family: 'Rajdhani', sans-serif;
 {
 
  background-color: rgb(200, 246, 246); 
- margin: 10pt;
  padding: 1pt;
- 
-    
+     
 }
 
 .title h1
@@ -24,7 +52,6 @@ font-family: 'Cinzel', serif;
 font-weight: bolder;
 text-align: center;
 
-
 }
 
 .navbar
@@ -34,7 +61,8 @@ background-color: rgb(254, 177, 213);
 text-align: center;
 font-weight: bolder;
 font-size: 20pt;
-margin-bottom: 50pt;
+margin-bottom: 30pt;
+
 }
 
 li
@@ -45,12 +73,14 @@ padding-left: 70pt;
 padding-right: 70pt;
 padding-top: 10pt;
 padding-bottom: 10pt;
+
 }
 
 li a
 {
 
 color: black;
+text-decoration: none;
 
 }
 
@@ -76,8 +106,56 @@ border-color: rgb(162, 254, 205);
 border-style: solid;
 border-width: 10px;
 width: 400px;
-height: 100%;
-margin-left: 150px;
+height: 550px;
+margin-left: 25px;
 padding: 20pt;
-text-align: left;
+float: left;
+
+}
+
+.selfie
+{
+
+float: right;
+padding: 20pt;
+margin-top: 150px;
+}
+
+#meimg
+{
+
+transform: rotate(-90deg);
+width: 400px;
+height: 240px;
+border-color: rgb(162, 254, 205);
+border-style: solid;
+border-width: 10px;
+
+}
+
+.contact
+{
+
+background-color: white;
+border-color: rgb(162, 254, 205);
+border-style: solid;
+border-width: 10px;
+width: 800px;
+height: 400px;
+margin: auto;
+padding: 20pt;
+
+}
+
+footer
+{
+
+width: 1000px;
+padding: 10px;
+margin: auto;
+font-family: 'Rajdhani', sans-serif;
+background-color: rgb(254, 177, 213);
+text-align: center;
+
+
 }

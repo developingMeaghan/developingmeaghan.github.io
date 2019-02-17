@@ -131,6 +131,20 @@ color: rgb(254, 177, 213);
 
 }
 
+h2
+{
+
+text-decoration: underline;
+
+}
+
+.contentv2 h2
+{
+
+font-family: font-family: 'Source Sans Pro', sans-serif;
+
+}
+
 footer
 {
 

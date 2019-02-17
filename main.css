@@ -33,6 +33,7 @@ p
 {
 
 font-family: 'Source Sans Pro', sans-serif;
+font-size: 15pt;
 
 }
 
@@ -92,12 +93,6 @@ color: rgb(254, 1, 119);
 
 }
 
-p
-{
-
-font-size: 15pt;
-
-}
 
 .main_content
 {

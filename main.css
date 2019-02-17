@@ -109,6 +109,13 @@ float: left;
 
 }
 
+.main_content h1
+{
+
+font-size: 30pt;
+
+}
+
 .selfie
 {
 
@@ -143,6 +150,13 @@ padding: 20pt;
 
 }
 
+.contentv2 h1
+{
+
+font-size: 30pt;
+
+}
+
 #email
 {
 
@@ -174,6 +188,27 @@ font-family: 'Source Sans Pro', sans-serif;
 
 }
 
+.menu a
+{
+
+color: black;
+
+}
+
+.menu a :hover
+{
+
+color: rgb(254, 1, 119);
+
+}
+
+.menu
+{
+
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 25pt;
+
+}
 
 
 footer

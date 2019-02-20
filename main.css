@@ -1,10 +1,12 @@
-body
+body 
 {
 
 background-image:  url(images/henna.png);
 background-size: 100px 100px;
 
 }
+
+/** the main content box starts for index.html**/
 #content
 {
 
@@ -36,7 +38,7 @@ font-family: 'Source Sans Pro', sans-serif;
 font-size: 15pt;
 
 }
-
+/** main content ends, title starts **/
 .title
 {
 
@@ -54,6 +56,8 @@ font-weight: bolder;
 text-align: center;
 
 }
+
+/** title ends, navbar stats **/
 
 .navbar
 {
@@ -93,6 +97,7 @@ color: rgb(254, 1, 119);
 
 }
 
+/** navbar ends, content box for contact starts **/
 
 .main_content
 {
@@ -116,6 +121,9 @@ font-size: 30pt;
 
 }
 
+/** content box ends **/
+
+/** styling for image on index **/
 .selfie
 {
 
@@ -135,6 +143,8 @@ border-style: solid;
 border-width: 10px;
 
 }
+
+/** content box for blog starts **/
 
 .contentv2
 {
@@ -156,6 +166,10 @@ padding: 20pt;
 font-size: 30pt;
 
 }
+
+/** content box ends **/
+
+/** styling for contact **/
 
 #email
 {
@@ -188,6 +202,8 @@ font-family: 'Source Sans Pro', sans-serif;
 
 }
 
+/** styling for contact ends, styling for blog starts **/
+
 .menu a
 {
 
@@ -210,6 +226,7 @@ font-size: 25pt;
 
 }
 
+/** styling for footer **/
 
 footer
 {
@@ -228,3 +245,5 @@ footer p
 font-family: 'Rajdhani', sans-serif;
 
 }
+
+/** styling for footer ends **/

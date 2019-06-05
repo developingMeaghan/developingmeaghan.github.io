@@ -1,10 +1,12 @@
-import React  from 'react';
+import React , { Fragment } from "react";
 
 function App (props) {
     return(
-        <div>
+        <Fragment>
+
             <h1>Hi, Hello, Hey...</h1>
-        </div>
+            
+        </Fragment>
        
     )
 }

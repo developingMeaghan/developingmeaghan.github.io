@@ -15,6 +15,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "modules": false
+        }
+      ],
+      "@babel/preset-react"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/developingMeaghan/developingmeaghan.github.io/issues"
   },

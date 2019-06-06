@@ -14,14 +14,14 @@ class Blog extends React.Component {
 <ul>
 
                             <li><a href ="#/s1cultural">Sprint 1</a></li>
-                            <li><a href="blog/sprint2tech.html">Sprint 2 <i>Technical</i></a></li>
-                            <li><a href="blog/s2cultural.html">Sprint 2 <i>Cultural</i></a></li>
-                            <li><a href="blog/s3tech.html">Sprint 3 <i>Technical</i></a></li>
-                            <li><a href="blog/s3cultural.html">Sprint 3 <i>Cultural</i></a></li>
-                            <li><a href="blog/s4cultural.html">Sprint 4 <i>Cultural</i></a></li>
-                            <li><a href="blog/s4tech.html">Sprint 4 <i>Technical</i></a></li>
-                            <li><a href="blog/s5cultural.html">Sprint 5 <i>Cultural</i></a></li>
-                            <li><a href="blog/goals.html"><i>Goals</i></a></li>
+                            <li><a href="#/s2tech">Sprint 2 <i>Technical</i></a></li>
+                            <li><a href="#/s2cultural">Sprint 2 <i>Cultural</i></a></li>
+                            <li><a href="#/s3tech">Sprint 3 <i>Technical</i></a></li>
+                            <li><a href="#/s3cultural">Sprint 3 <i>Cultural</i></a></li>
+                            <li><a href="#/s4cultural">Sprint 4 <i>Cultural</i></a></li>
+                            <li><a href="#/s4tech">Sprint 4 <i>Technical</i></a></li>
+                            <li><a href="#/s5cultural">Sprint 5 <i>Cultural</i></a></li>
+                            <li><a href="#/goals"><i>Goals</i></a></li>
 
                         </ul>
 

@@ -29,7 +29,7 @@ class Home extends React.Component {
 
                 <div className="selfie">
 
-                    <img src="images/selfie.jpg" alt="Picture of Meaghan De Klerk" id="meimg" />
+                    <img src={selfie} alt="Picture of Meaghan De Klerk" id="meimg" />
 
                 </div>
                 

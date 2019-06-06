@@ -1,0 +1,87 @@
+import React , { Fragment } from "react";
+
+class S2tech extends React.Component {
+    render(){
+        return(
+            <Fragment>
+                
+                <div className="contentv2">
+                <h1>The Multiple Powers of Positioning and Their Individual Effects.</h1>
+                <p>
+                        The first thing to understand, before diving into the differences 
+                        between <strong>relative, absolute,</strong> and <strong>fixed</strong> positioning, is that every 
+                        element on a web page is seen as a box or block. 
+                        Here's an image for clarification:
+                </p>
+
+                <img src="images/boxified.png" alt="Example of website boxified" id="dogs" />
+
+                <div className="paragraph">
+                    <p>
+                            This is important to note because it helps us understand how positioning works 
+                            and the different specification we can apply to it. When it comes to wanting move 
+                            things we can specify which box we want to move or position. We can do this in CSS 
+                            after specifying what it is we want to move with the position tag. There are all together 
+                            4 different values of position tags: <strong>static, relative, absolute</strong> and <strong>fixed.</strong>
+                    </p>
+                </div>
+
+                <div className="paragraph">
+                    <p>
+                            <strong>Static</strong> is the default setting for every element on a page. This value is only ever used when 
+                            an element is receiving style for perhaps a different element or is being impacted by another element 
+                            to return it to its original default. 
+                    </p>
+                </div>
+
+                <div className="paragraph">
+                    <p>
+                            To make an element <strong>relative</strong> means we can move it around from its original default spot, it is relative to itself. 
+                            However, when we use this value we have to specify with attribute if we want to move left, right, top (up) or bottom 
+                            (down) from its original spot or it will remain static. This value gives us a lot of control and is very helpful when 
+                            wanting to make small changes. It also allows us to use z-index which isn't possible with the static value. The z-index 
+                            refers to the stacking order of elements and how they appear and flow, the greater the z-index, the higher its is in the 
+                            order, the sooner it's seen. 
+                    </p>
+                </div>
+
+                <div className="paragraph">
+                    <p>
+                            The third value of position is <strong>absolute.</strong> With this value we can set the exact location of where we want our element using 
+                            attributes left right top and bottom again. This time it uses the positioning of the next relative or absolute parent 
+                            element to move around rather than its original position, if there is no parent element that's relative or absolute the 
+                            attributes will position relative to the html page itself. (Think of a parent element as a box around another box, the 
+                            box inside is a child to the outer box.) This value doesn't get impacted by other elements, the downside to this is that 
+                            can kill the flow and flexibility of our page making styling even harder.
+                    </p>
+                </div>
+
+                <div className ="paragraph">
+                    <p>
+                            Finally the last value that can be used in CSS is <strong>fixed.</strong> This value is very rarely used, it was more common when webpages were 
+                            first being created, Everything on a webpage was either static or fixed since they were usually designed for computers and not other devices. But 
+                            the value can be useful, what it does is fix the element relative to the viewport (a viewport is the users visible area of the web page.) This means 
+                            when someone scrolls on the page the element will not move it will stay right where it has been fixed, as if its been glued. A good example of 
+                            this would be a navigation/ menu bar that stays either where it has been positioned, <a href="https://css-tricks.com/" target="_blank">this site</a>  shows this really well. 
+                            Where as you can see this current site you're reading this on the navigation/menu bar moves and eventually disappears when you scroll.
+                    </p>
+                </div>
+
+                <div className="paragraph">
+                    <p>
+                            To summarize the relative value allows us to move an element around from its original default position using attributes. The absolute value allows us 
+                            to set the exact location of an element using the parent element as its original point. And the fixed position basically superglues the element to that 
+                            one part of the webpage viewport never to move ever. But lets not forget static which is always applied to all elements, this is it's original 
+                            default positioning without any values or tags being applied to it.
+                    </p>
+                </div>
+                
+            </div>
+            </Fragment>
+
+        )
+    };
+
+};
+
+export default S2tech;

@@ -6,7 +6,7 @@ class Contact extends React.Component {
 
             <Fragment> 
 
-                <div class="contentv2">
+                <div className="contentv2">
 
                     <h1>I've Got Something To Say... Have You?</h1>
 
@@ -17,7 +17,7 @@ class Contact extends React.Component {
                         an artist!
                     </p>
 
-                    <ul class="contactli">
+                    <ul className="contactli">
 
                         <li>meaghan.dk@gmail.com</li>
                         <li><a href="https://www.instagram.com/the_mothershp/">The_Mothership</a></li>

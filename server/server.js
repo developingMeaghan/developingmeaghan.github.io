@@ -1,7 +1,9 @@
 const express = require ("express");
+const path = require("path");
 
-const server = express();3
 
-server.use(express.static('./public'));
+const server = express();
+
+server.use(express.static(path.join(__dirname, "../public")));
 
 module.exports = server; 

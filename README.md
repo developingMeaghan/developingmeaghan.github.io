@@ -10,7 +10,7 @@ This is an app I had to creat during my time at Enspiral Dev Academy. It started
 ## WireFrames
 
 ## Home
-![Home Page](images/Home.png)
+![Home Page](images/Landing.png)
 
 ## Projects
 ![project Page](images/Blog.png)

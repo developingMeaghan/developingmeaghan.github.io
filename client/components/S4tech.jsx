@@ -1,5 +1,7 @@
 import React , { Fragment } from "react";
 
+import marvin from "../../public/images/marvin.png"
+
 class S2tech extends React.Component {
     render(){
         return(
@@ -57,7 +59,7 @@ class S2tech extends React.Component {
                     
                     <br />
 
-                    <img src="images/marvin.jpg" id= "marvin" alt="rubber duck" />
+                    <img src={marvin} id= "marvin" alt="rubber duck" />
 
                 </div>
 

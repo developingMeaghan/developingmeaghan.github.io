@@ -1,5 +1,7 @@
 import React , { Fragment } from "react";
 
+import portrait from "../../public/images/selfie.png";
+
 class Home extends React.Component {
     render(){
         return(
@@ -29,7 +31,8 @@ class Home extends React.Component {
 
                 <div className="selfie">
 
-                    <img src={selfie} alt="Picture of Meaghan De Klerk" id="meimg" />
+
+                    <img src={portrait} alt="Picture of Meaghan De Klerk" id="meimg" />
 
                 </div>
                 

@@ -10,6 +10,7 @@ class Blog extends React.Component {
                     <h1>Welcome! this is where you can find all my projects during this course!</h1>
 
                     <div className="menu">
+                    <h3>Here you will find a collection of thoughts and expereinces during the foundation part of my journey with Enspiral Dev Academy </h3>
 
 <ul>
 

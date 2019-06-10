@@ -68,7 +68,7 @@ class S2tech extends React.Component {
                             <p>
                                 Learn more about neuroplasticity and what it can do for you as well as how to boost it 
                                 <a href="https://positivepsychologyprogram.com/neuroplasticity/" target="_blank" >here.</a> 
-                            </p>     {/*^^^Link to neuroplasticty info^^^ */}
+                            </p> 
                             
 
                         </div>
@@ -99,8 +99,7 @@ class S2tech extends React.Component {
 
                             <p>
                                 Learn more about growth mindset and how to expand it <a href="https://positivepsychologyprogram.com/growth-mindset-vs-fixed-mindset/" target="_blank">here.</a>
-                            </p>                                                    {/* Link to growth mindset info^^^ */}
-
+                            </p>                                                    
                         </div>
 
                 </div>

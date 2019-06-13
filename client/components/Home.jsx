@@ -1,7 +1,6 @@
 import React , { Fragment } from "react";
 
-import portrait from "../../public/images/selfie.png";
-
+import portrait from "../../public/images/self.png";
 class Home extends React.Component {
     render(){
         return(

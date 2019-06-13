@@ -7,7 +7,7 @@ This is an app I had to creat during my time at Enspiral Dev Academy. It started
 * [React](https://reactjs.org/docs/getting-started.html)
 * [Express](https://expressjs.com/en/api.html)
 
-## WireFrames
+## WireFrames:
 
 ## Home
 ![Home Page](images/Landing.png)

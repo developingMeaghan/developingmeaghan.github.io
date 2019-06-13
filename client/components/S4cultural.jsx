@@ -45,7 +45,7 @@ class S2tech extends React.Component {
 
                         </div>
 
-                        <div clas ="paragraph">
+                        <div className ="paragraph">
 
                             <h2>Ways to Improve Neuroplasticity:</h2>
 

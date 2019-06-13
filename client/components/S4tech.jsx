@@ -1,6 +1,6 @@
 import React , { Fragment } from "react";
 
-import marvin from "../../public/images/marvin.png"
+import marvin from "../../public/images/marvn.png"
 
 class S2tech extends React.Component {
     render(){
@@ -41,7 +41,7 @@ class S2tech extends React.Component {
 
                     <ul>
 
-                        <li>Pseudocode: Semi-confident, I don't do it at first, I tend to just jump into coding because I feel like I know what I need to do. But then part of the way I forget what needs to come next or get confused. Only then do I start using this method.</li>
+                        <li>Pseudocode: Semi-confident, I don't do it at first, I tend to just jump into coding because I feel like I know what I need to do. But then part of the way I forget what needs to come next or I get confused. Only then do I start using this method.</li>
                         <li>Trying something: Pretty confident, when problems arise I usually start changing  random things to see where the problem is or see if it fixes it.</li>
                         <li>Rubber ducky method: Very confident, this has been my go to method for when a problem comes up. I tend to get really bad tunnel vision so this helps with that by looking at the bigger picture instead of focusing on the small problem. </li>
                         <li>Reading error messages: not overly confident, sometimes they don't make a whole lot of sense to me.</li>

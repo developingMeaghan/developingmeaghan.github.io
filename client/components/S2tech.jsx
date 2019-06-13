@@ -1,4 +1,5 @@
 import React , { Fragment } from "react";
+import boxed from "../../public/images/boxified.png";
 
 class S2tech extends React.Component {
     render(){
@@ -14,7 +15,7 @@ class S2tech extends React.Component {
                         Here's an image for clarification:
                 </p>
 
-                <img src="images/boxified.png" alt="Example of website boxified" id="dogs" />
+                <img src={boxed} alt="Example of website boxified" id="dogs" />
 
                 <div className="paragraph">
                     <p>

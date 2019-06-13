@@ -5,7 +5,7 @@ class Header extends React.Component {
         return(
             <div className="title">
 
-                <h1><u>My Great Life Adventure!</u></h1>  
+                <h1><u>The Learning Journey!</u></h1>  
 
             </div> 
         )

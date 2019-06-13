@@ -6,19 +6,61 @@
 @import "compass/reset";
 @import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 
-html{
-    font-size: 62.5%;
-    width: 100%;
-    height: 100%;
+// breakpoint mixin
+@mixin breakpoint($mq01: 0, $mq2: false, $maxmin: max-width) {
+    @if $mq2 == false {
+        @media ($maxmin: $mq01) {
+            @content;
+        }
+    }
+    @else {
+        @media (min-width: $mq01) and (max-width: $mq2) {
+            @content;
+        }
+    }
 }
 
-body{
-    font-size: 1.4rem;
+// responsive font size mixin
+@mixin font-size-map($font-size-map) {
+    @each $breakpoint, $font-size in $font-size-map {
+        @if $breakpoint == null {
+            font-size: $font-size;
+        } @else {
+            @include breakpoint($breakpoint) {
+                font-size: $font-size;
+            }
+        }
+    }
+}
+
+// breakpoint variables
+$lg:  117.0rem; // 1170px
+$md:  102.4rem; //1024px
+$sm:  64rem; // 640px;
+$xs:  48rem; //480px;
+
+//Font size
+$html-font-size: (null: 1.6rem, $md: 1.5rem, $sm: 1.4rem, $xs: 1.3rem);
+$paragraph-font-size: (null: 1.8rem, $lg: 1.7rem, $md: 1.6rem, $sm: 1.5rem, $xs: 1.4rem);
+$h1-font-size: (null: 3.7rem, $lg: 3.6rem, $md: 3.5rem, $sm: 3.4rem, $xs: 3.3rem);
+
+html{
+    line-height: 1.2;
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+
 }
 
 .title {
 
     font-family: 'Special Elite', cursive;
-    font-size: 3.6rem;
-    padding: 2rem;
+    @include font-size-map($h1-font-size);
+    padding: 2.0rem;
+
+}
+
+body {
+    @include font-size-map($html-font-size);
+
 }

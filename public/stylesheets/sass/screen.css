@@ -77,55 +77,109 @@ html {
 }
 
 /* line 55, ../../sass/sass/screen.scss */
-.title {
-  font-family: 'Special Elite', cursive;
-  font-size: 3.7rem;
-  padding: 2.0rem;
-}
-@media (max-width: 117rem) {
-  /* line 55, ../../sass/sass/screen.scss */
-  .title {
-    font-size: 3.6rem;
-  }
+body {
+  font-size: 2rem;
 }
 @media (max-width: 102.4rem) {
   /* line 55, ../../sass/sass/screen.scss */
-  .title {
-    font-size: 3.5rem;
+  body {
+    font-size: 1.9rem;
   }
 }
 @media (max-width: 64rem) {
   /* line 55, ../../sass/sass/screen.scss */
-  .title {
-    font-size: 3.4rem;
+  body {
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 48rem) {
   /* line 55, ../../sass/sass/screen.scss */
-  .title {
-    font-size: 3.3rem;
+  body {
+    font-size: 1.7rem;
   }
 }
 
-/* line 63, ../../sass/sass/screen.scss */
-body {
-  font-size: 1.6rem;
+/* line 60, ../../sass/sass/screen.scss */
+p {
+  font-size: 2.2rem;
+}
+@media (max-width: 117rem) {
+  /* line 60, ../../sass/sass/screen.scss */
+  p {
+    font-size: 2.1rem;
+  }
 }
 @media (max-width: 102.4rem) {
-  /* line 63, ../../sass/sass/screen.scss */
-  body {
-    font-size: 1.5rem;
+  /* line 60, ../../sass/sass/screen.scss */
+  p {
+    font-size: 2rem;
   }
 }
 @media (max-width: 64rem) {
-  /* line 63, ../../sass/sass/screen.scss */
-  body {
-    font-size: 1.4rem;
+  /* line 60, ../../sass/sass/screen.scss */
+  p {
+    font-size: 1.9rem;
   }
 }
 @media (max-width: 48rem) {
-  /* line 63, ../../sass/sass/screen.scss */
-  body {
-    font-size: 1.3rem;
+  /* line 60, ../../sass/sass/screen.scss */
+  p {
+    font-size: 1.8rem;
   }
+}
+
+/* line 65, ../../sass/sass/screen.scss */
+.title {
+  font-family: 'Special Elite', cursive;
+  font-size: 4.5rem;
+  padding: 2.0rem;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 117rem) {
+  /* line 65, ../../sass/sass/screen.scss */
+  .title {
+    font-size: 4.4rem;
+  }
+}
+@media (max-width: 102.4rem) {
+  /* line 65, ../../sass/sass/screen.scss */
+  .title {
+    font-size: 4.3rem;
+  }
+}
+@media (max-width: 64rem) {
+  /* line 65, ../../sass/sass/screen.scss */
+  .title {
+    font-size: 4.2rem;
+  }
+}
+@media (max-width: 48rem) {
+  /* line 65, ../../sass/sass/screen.scss */
+  .title {
+    font-size: 4.1rem;
+  }
+}
+
+/* line 75, ../../sass/sass/screen.scss */
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+/* line 79, ../../sass/sass/screen.scss */
+.navbar li {
+  display: inline-block;
+  padding: 1.0rem;
+}
+
+/* line 85, ../../sass/sass/screen.scss */
+.contentHolder {
+  padding: 2.0rem;
+  width: 50rem;
+}
+/* line 91, ../../sass/sass/screen.scss */
+.contentHolder img {
+  transform: rotate(-90deg);
+  width: 45rem;
+  height: 27rem;
 }

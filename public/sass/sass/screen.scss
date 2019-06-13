@@ -40,9 +40,9 @@ $sm:  64rem; // 640px;
 $xs:  48rem; //480px;
 
 //Font size
-$html-font-size: (null: 1.6rem, $md: 1.5rem, $sm: 1.4rem, $xs: 1.3rem);
-$paragraph-font-size: (null: 1.8rem, $lg: 1.7rem, $md: 1.6rem, $sm: 1.5rem, $xs: 1.4rem);
-$h1-font-size: (null: 3.7rem, $lg: 3.6rem, $md: 3.5rem, $sm: 3.4rem, $xs: 3.3rem);
+$html-font-size: (null: 2.0rem, $md: 1.9rem, $sm: 1.8rem, $xs: 1.7rem);
+$paragraph-font-size: (null: 2.2rem, $lg: 2.1rem, $md: 2.0rem, $sm: 1.9rem, $xs: 1.8rem);
+$h1-font-size: (null: 4.5rem, $lg: 4.4rem, $md: 4.3rem, $sm: 4.2rem, $xs: 4.1rem);
 
 html{
     line-height: 1.2;
@@ -52,15 +52,45 @@ html{
 
 }
 
+body {
+    @include font-size-map($html-font-size);
+
+}
+
+p {
+    @include font-size-map($paragraph-font-size);
+
+}
+
 .title {
 
     font-family: 'Special Elite', cursive;
     @include font-size-map($h1-font-size);
     padding: 2.0rem;
+    display: flex;
+    justify-content: center;
 
 }
 
-body {
-    @include font-size-map($html-font-size);
+.navbar {
+    display: flex;
+    justify-content: center;
 
+        li {
+            display: inline-block;
+            padding: 1.0rem;
+        }
+}
+
+.contentHolder {
+    padding: 2.0rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+
+    img {
+        transform: rotate(-90deg);
+        width: 9000rem;
+        height: 100rem;
+    }
 }
